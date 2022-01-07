@@ -33,12 +33,12 @@ namespace BookLotModel
                 .WithOptional(e => e.Deposit)
                 .WillCascadeOnDelete();
 
-            /*
+            
             modelBuilder.Entity<Deposit>()
                 .HasMany(e => e.Reviews)
                 .WithOptional(e => e.Deposit)
                 .WillCascadeOnDelete();
-            */
+            
 
 
             modelBuilder.Entity<Order>()
