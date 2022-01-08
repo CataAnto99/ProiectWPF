@@ -30,7 +30,6 @@ namespace BookLotModel
         public string Email { get; set; }
 
         [StringLength(50)]
-
         public string PhoneNumber { get; set; }
 
        
